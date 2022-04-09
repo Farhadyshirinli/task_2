@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Artful Beauty";
+  src: url("../task.assets/fonts/subset-ArtfulBeauty.eot");
+  src: url("../task.assets/fonts/subset-ArtfulBeauty.eot?#iefix")
+      format("embedded-opentype"),
+    url("../task.assets/fonts/subset-ArtfulBeauty.woff2") format("woff2"),
+    url("../task.assets/fonts/subset-ArtfulBeauty.woff") format("woff"),
+    url("../task.assets/fonts/subset-ArtfulBeauty.ttf") format("truetype"),
+    url("../task.assets/fonts/subset-ArtfulBeauty.svg#ArtfulBeauty")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

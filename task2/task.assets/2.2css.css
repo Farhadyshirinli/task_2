@@ -1,0 +1,77 @@
+* {
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  /* font-weight: 400;
+  line-height: 1.8em; */
+  color: #666;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+.img1 {
+  padding-top: 1%;
+  min-height: 100%;
+  background-image: url(https://images.pexels.com/photos/10175519/pexels-photo-10175519.jpeg?cs=srgb&dl=pexels-keith-lobo-10175519.jpg&fm=jpg);
+}
+.img2 {
+  background-image: url(https://images.pexels.com/photos/7630187/pexels-photo-7630187.jpeg?cs=srgb&dl=pexels-keith-lobo-7630187.jpg&fm=jpg);
+  max-height: 400px;
+}
+.img3 {
+  background-image: url(https://images.pexels.com/photos/6989/city-love-rainbow-nyc.jpg?cs=srgb&dl=pexels-snapwire-6989.jpg&fm=jpg);
+  max-height: 400px;
+}
+.img4 {
+  min-height: 100%;
+  background-image: url(https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?cs=srgb&dl=pexels-francesco-ungaro-2325447.jpg&fm=jpg);
+}
+
+.Text {
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 25%;
+  bottom: 0%;
+
+  /* width: 50%; */
+
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 8px;
+
+  color: rgb(0, 0, 0);
+  /* padding: 2px; */
+}
+
+.section1,
+.section2,
+.section3 {
+  padding: 50px 80px;
+  height: 50%;
+  line-height: 1cm;
+  margin-bottom: -20px;
+
+  text-align: center;
+}
+.section2,
+.section3 {
+  background-color: #282e34;
+  color: #ddd;
+}
